@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/assured_contract_farming
+    username: root
+    password: Soham
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+  jwt:
+    secret: "c81edd22b8e8c152f7c678581fb433fc"
+    expiration: 3600000
+
