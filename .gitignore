@@ -1,0 +1,30 @@
+# =========================
+# React Frontend
+# =========================
+frontend/node_modules
+frontend/dist
+
+# =========================
+# Spring Boot Backend
+# =========================
+backend/target
+backend/.idea
+backend/*.iml
+
+# =========================
+# Python ML Backend
+# =========================
+crop-price-ml/venv
+crop-price-ml/__pycache__
+crop-price-ml/*.pyc
+
+# =========================
+# Environment Files
+# =========================
+.env
+
+# =========================
+# OS Files
+# =========================
+Thumbs.db
+.DS_Store
